@@ -1,4 +1,5 @@
-// actual 
+// call by value
+// suitable for situations where a function performs a computation and returns some result 
 
 #include <iostream> 
 
@@ -13,8 +14,8 @@ int main(){
     int a = 10; 
     int b = 20; 
     
-    int c = add(a, b); 
+    int sum = add(a, b); 
 
-    cout << "Sum: " << c; 
+    cout << "Sum: " << sum; 
 
 }
